@@ -1,0 +1,26 @@
+{
+    "code": 1000,
+    "message": "",
+    "data": {
+        "majors": [
+            {
+                "id": 1,
+                "name": "会计专业",
+                "fee": 5000,
+                "period": 3,
+                "seats": "50",
+                "enroled": "17",
+                "applied": "100"
+            },
+            {
+                "id": 2,
+                "name": "计算机专业",
+                "fee": 8000,
+                "period": 2,
+                "seats": "100",
+                "enroled": "28",
+                "applied": "90"
+            }
+        ]
+    }
+}

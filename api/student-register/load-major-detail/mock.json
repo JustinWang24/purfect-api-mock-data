@@ -1,0 +1,16 @@
+{
+    "code": 1000,
+    "message": "",
+    "data": {
+        "major": {
+            "id": 1,
+            "name": "会计专业",
+            "fee": 5000,
+            "period": 3,
+            "seats": "50",
+            "enroled": "17",
+            "applied": "100",
+            "details": "表示该模型的所有关联数据"
+        }
+    }
+}
