@@ -1,0 +1,68 @@
+{
+    "code": 1000,
+    "message": "",
+    "data": {
+        "banner_img": "/Uploads/upload/20170727/59794c5821065.jpg",
+        "major_list":[{
+            "major_name":"动漫设计",
+            "jon_num":"10/50人",
+            "money":"50000/年",
+            "is_sign":true
+        },{
+            "major_name":"汽车维修",
+            "jon_num":"1/50人",
+            "money":"50000/年",
+            "is_sign":true
+        },{
+            "major_name":"会计",
+            "jon_num":"14/50人",
+            "money":"50000/年",
+            "is_sign":true
+        },{
+            "major_name":"影视制作",
+            "jon_num":"50/50人",
+            "money":"50000/年",
+            "is_sign":false
+        },{
+            "major_name":"动漫设计",
+            "jon_num":"10/50人",
+            "money":"50000/年",
+            "is_sign":true
+        },{
+            "major_name":"汽车维修",
+            "jon_num":"1/50人",
+            "money":"50000/年",
+            "is_sign":true
+        },{
+            "major_name":"会计",
+            "jon_num":"14/50人",
+            "money":"50000/年",
+            "is_sign":true
+        },{
+            "major_name":"影视制作",
+            "jon_num":"50/50人",
+            "money":"50000/年",
+            "is_sign":false
+        },{
+            "major_name":"动漫设计",
+            "jon_num":"10/50人",
+            "money":"50000/年",
+            "is_sign":true
+        },{
+            "major_name":"汽车维修",
+            "jon_num":"1/50人",
+            "money":"50000/年",
+            "is_sign":true
+        },{
+            "major_name":"会计",
+            "jon_num":"14/50人",
+            "money":"50000/年",
+            "is_sign":true
+        },{
+            "major_name":"影视制作",
+            "jon_num":"50/50人",
+            "money":"50000/年",
+            "is_sign":false
+        }]
+    }
+}
