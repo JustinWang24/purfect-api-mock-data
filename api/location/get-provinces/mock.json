@@ -8,7 +8,7 @@
                 "name": "北京市",  
                 "ProSort": 1,  
                 "ProRemark": "直辖市"  
-            }, {  
+            },{  
                 "ProID": 2,  
                 "name": "天津市",  
                 "ProSort": 2,  
@@ -43,7 +43,7 @@
                 "name": "黑龙江省",  
                 "ProSort": 10,  
                 "ProRemark": "省份"  
-            }{  
+            }, {  
                 "ProID": 9,  
                 "name": "上海市",  
                 "ProSort": 3,  
@@ -133,7 +133,7 @@
                 "name": "宁夏回族自治区",  
                 "ProSort": 30,  
                 "ProRemark": "自治区"  
-            },{  
+            }, {  
                 "ProID": 27,  
                 "name": "重庆市",  
                 "ProSort": 4,  
