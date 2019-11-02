@@ -24,6 +24,9 @@
 | id      |  yes      |   String | 请求加载的专业的 ID |
 
 - 返回数据请参考 /api/student-register/load-major-detail/mock.json
+- 返回数据中的说明:
+  - major: 专业的基础数据
+  - major.courses: 该专业所包含的课程的列表
 
 ## 在用户填写报名表的界面, 在用户填写了身份证号之后, 会调用此接口
 
