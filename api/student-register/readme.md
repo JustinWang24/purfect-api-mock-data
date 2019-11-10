@@ -45,6 +45,23 @@
   - applied: 表示查询到的学生的以报名的专业列表. 无数据则返回空数组
     - status: 表示报名的结果, 分别为 审核中, 成功, 失败等状态的值
 
+## 在用户填写报名表的界面, 输入了完整的身份证之后, 会调用此接口
+
+- 此接口的目的, 是确保填写的身份证号码有效, 并且可以自动解析出其中的用户生日信息
+- 请求 url: /api/student-register/verify-id-number
+
+| 参数名       | 是否必须          | 参数类型  | 说明  |
+| ------------- |:-------------:| -----:| -----:|
+| version     | Yes | String | 表示当前呼叫方的版本号 |
+| id_number      |  Yes      |   Object | 用户的身份证号码|
+
+- 说明: 在调用此接口前, 前端程序会验证长度必须为 18 位
+- 返回数据 mock:
+  - 当验证成功时:
+    - message: 包含了解析出的用户生日, 格式为: Y年m月d日
+  - 当报名失败时:
+    - message: 表示验证失败的原因文字说明
+
 ## 在用户填写报名表的界面, 在点击提交之后的接口
 
 - 此接口的目的, 是为让系统保存学生的报名表单
@@ -54,10 +71,10 @@
 | ------------- |:-------------:| -----:| -----:|
 | version     | Yes | String | 表示当前呼叫方的版本号 |
 | form      |  Yes      |   Object | 用户的 profile 数据, 字段名与数据库名完全相同. ID 为空表示新学生, ID 不为空表示该 profile 已经存在 |
-| major_id      |  Yes      |   String | 用户报名的专业的 ID |
+| recruitment_plan_id      |  Yes      |   String | 用户报名所关联的招生简章的 ID |
 
 - 说明: 在调用此接口前, 页面会完成全部的数据格式验证工作. 
-- 其中的生日字段, 为 UTC 格式, 在服务器端保存之前, 请调用 GradeAndYearUtil::ConvertJsTimeToCarbon() 方法转成 Carbon 对象再保存即可
+- 其中的生日字段不包含在提交的表单当中, 需要通过身份证信息去解析即可, 方法为 GradeAndYearUtil::IdNumberToBirthday($idNumber): Carbon
 - 返回数据 mock:
   - 当报名成功时: /api/student-register/submit-form/mock_expect_success.json
   - 当报名失败时: /api/student-register/submit-form/mock_expect_fail.json
