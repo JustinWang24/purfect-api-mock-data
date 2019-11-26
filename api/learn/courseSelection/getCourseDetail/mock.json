@@ -1,0 +1,19 @@
+{
+    "code" : "1000",
+    "message" : "选课详情",
+    "data" : {
+        "course_id":"1",
+        "course_title":"计算机科学技术",
+        "teacher_name":"王新",
+        "credit":"10分",
+        "course_number":"120",
+        "registered_number":"20",
+        "class_week":"第2周——第5周",
+        "class_time":"周一   第四、第5节",
+        "class_address":"第二教学楼408",
+        "registration_deadline":"2019-09-09  12:00",
+        "start_learn_number":"30",
+        "course_introduction":"课程是指学校学生所应学习的学科综合及齐进程与安排。课程是对教育的目标、教学内容、教学活动方式的规划和设计，是教学计划、教学大纲等诸多方面实施过程的综合。",
+        "course_status":"1"
+    }
+  }

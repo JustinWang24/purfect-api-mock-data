@@ -1,0 +1,31 @@
+{
+    "code" : "1000",
+    "message" : "我的报名",
+    "data" : {
+        "list":[{
+                "course_id":"1",
+                "course_title":"计算机科学技术",
+                "credit":"10分",
+                "class_time":"周一   第四节",
+                "registration_deadline":"2019-09-09  12:00",
+                "registered_number":"20",
+                "course_status":"1"//课程状态0是已取消 1是报名成功 2是已关闭
+            },{
+                "course_id":"2",
+                "course_title":"计算机科学技术",
+                "credit":"20分",
+                "class_time":"周二   第三节",
+                "registration_deadline":"2019-10-09  11:00",
+                "registered_number":"10",
+                "course_status":"0"
+            },{
+                "course_id":"3",
+                "course_title":"计算机科学技术",
+                "credit":"10分",
+                "class_time":"周二   第四节",
+                "registration_deadline":"2019-09-08  12:00",
+                "registered_number":"50",
+                "course_status":"2"
+            }]
+        }
+  }
