@@ -4,17 +4,32 @@
     "data": {
         "profile": {
             "id": 1,
-            "details": "表示该模型的所有关联数据, 字段名与数据库字段同名即可"
+            "name": "王越",
+            "id_number": "110108197501111234",
+            "gender": 2,
+            "nation_name": "汉族",
+            "political_name": "群众",
+            "source_place": "广东",
+            "country": "北京",
+            "mobile": "18510209803",
+            "birthday": "2000-12-31",
+            "qq": "987123654",
+            "wx": "Wangyue-Austrlia",
+            "email": "wangyue@purfect.cn",
+            "parent_name": "王羲之",
+            "parent_mobile": "18510209803",
+            "examination_score": "250",
+            "relocation_allowed": false
         },
         "applied": [
             {
-                "id": 10,
-                "name": "挖掘机专业",
+                "id": 1,
+                "name": "动漫设计",
                 "status": 1
             },
             {
-                "id": 10,
-                "name": "挖掘机专业",
+                "id": 2,
+                "name": "汽车修理",
                 "status": 2
             }
         ]

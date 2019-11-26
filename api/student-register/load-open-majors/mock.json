@@ -6,20 +6,24 @@
             {
                 "id": 1,
                 "name": "会计专业",
+                "title": "会计专业招生简章",
                 "fee": 5000,
                 "period": 3,
                 "seats": "50",
-                "enroled": "17",
-                "applied": "100"
+                "enrolled": "17",
+                "applied": "100",
+                "hot": true
             },
             {
                 "id": 2,
                 "name": "计算机专业",
+                "title": "计算机专业招生简章",
                 "fee": 8000,
                 "period": 2,
                 "seats": "100",
-                "enroled": "28",
-                "applied": "90"
+                "enrolled": "28",
+                "applied": "90",
+                "hot": false
             }
         ]
     }

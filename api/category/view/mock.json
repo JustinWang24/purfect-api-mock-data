@@ -1,0 +1,51 @@
+{
+    "code": 1000,
+    "message": "",
+    "data":{
+        "redirect": {
+            "action": "Action describer",
+            "params": {}
+        },
+        "category":{
+            "uuid": "user-uuid-string",
+            "name": "目录名称",
+            "type": 1,
+            "created_at": "2019-11-14",
+            "children":[
+                {
+                    "uuid": "category1-uuid",
+                    "name": "category name1",
+                    "created_at": "2019-11-14"
+                },{
+                    "uuid": "category2-uuid",
+                    "name": "category name2",
+                    "created_at": "2019-11-13"
+                }
+            ],
+            "parent": {
+                "uuid": "category-parent-uuid",
+                "name": "parent category name"
+            },
+            "files": [
+                {
+                    "uuid": "11111",
+                    "name": "文件 1",
+                    "created_at": "2019-11-14",
+                    "period": "",
+                    "type": "img",
+                    "size": 1500000,
+                    "url": "https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=d2bb3bedb351f819e5280b18bbdd2188/caef76094b36acafc5742b3a7fd98d1000e99c64.jpg"
+                },
+                {
+                    "uuid": "22222",
+                    "name": "文件 2",
+                    "created_at": "2019-11-14",
+                    "period": "",
+                    "type": "img",
+                    "size": 1500000,
+                    "url": "https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=d2bb3bedb351f819e5280b18bbdd2188/caef76094b36acafc5742b3a7fd98d1000e99c64.jpg"
+                }
+            ]
+        }
+    }
+}
