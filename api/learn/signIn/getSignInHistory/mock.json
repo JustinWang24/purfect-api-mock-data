@@ -1,0 +1,36 @@
+//签到记录,需要传入参数时间如2019上学期
+{
+  "code" : "1000",
+  "message" : "签到记录",
+  "data" : {
+    "list" : [
+      {
+        "course_time_quarter" : "第一节",
+        "course_time_weekday" : "周一",
+        "course_title" : "课程名称",
+        "leave_count" : 10,//请假人数
+        "sign_in_count" : "20",//已签到人数
+        "sign_in_id" : "1",//签到详情id
+        "truant_count" : 2//旷课人数
+      },
+      {
+        "course_time_quarter" : "第一节",
+        "course_time_weekday" : "周一",
+        "course_title" : "课程名称",
+        "leave_count" : 10,//请假人数
+        "sign_in_count" : "20",//已签到人数
+        "sign_in_id" : "1",//签到详情id
+        "truant_count" : 2//旷课人数
+      },
+      {
+        "course_time_quarter" : "第一节",
+        "course_time_weekday" : "周一",
+        "course_title" : "课程名称",
+        "leave_count" : 10,//请假人数
+        "sign_in_count" : "20",//已签到人数
+        "sign_in_id" : "1",//签到详情id
+        "truant_count" : 2//旷课人数
+      }
+    ]
+  }
+}

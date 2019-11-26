@@ -1,0 +1,33 @@
+//需要传入page进行加载
+{
+  "code" : "1000",
+  "data" : {
+    "list" : [
+      {
+        "course_time_day" : "2019-09-09 12:45",
+        "course_time_quarter" : "第一节",
+        "course_time_weekday" : "周一",
+        "status" : "1"//签到状态 1--已签,2--请假,3--旷课
+      },
+      {
+        "course_time_day" : "2019-09-09 12:45",
+        "course_time_quarter" : "第一节",
+        "course_time_weekday" : "周一",
+        "status" : "1"
+      },
+      {
+        "course_time_day" : "2019-09-09 12:45",
+        "course_time_quarter" : "第一节",
+        "course_time_weekday" : "周一",
+        "status" : "1"
+      },
+      {
+        "course_time_day" : "2019-09-09 12:45",
+        "course_time_quarter" : "第一节",
+        "course_time_weekday" : "周一",
+        "status" : "1"
+      }
+    ]
+  },
+  "message" : "签到记录详情"
+}

@@ -1,0 +1,18 @@
+//签到信息
+{
+  "code": "1000",
+  "message": "签到信息",
+  "data":
+      {
+          "sign_in_id": "1",//签到id
+          "course_title": "课程名称",
+          "teacher_name": "教师姓名",
+          "course_time": "上课时间",
+          "course_addr": "上课教室(A10教室)",
+          "status": "签到状态",
+          "re_sign_in": "1",//扫码补签状态
+          "sign_in_count": 20,//已签到人数
+          "leave_count": 10,//请假人数
+          "truant_count": 2 //旷课人数
+    }
+}
