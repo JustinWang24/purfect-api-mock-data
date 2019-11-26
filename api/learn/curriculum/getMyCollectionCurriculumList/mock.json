@@ -1,0 +1,53 @@
+{
+    "code": 1000,
+    "message": "课程笔记列表",
+    "data":{
+        "note_size":"9",
+        "list":[{
+            "title":"线性代数",
+            "cover_img_url":"http://jzvd-pic.nathen.cn/jzvd-pic/1bb2ebbe-140d-4e2e-abd2-9e7e564f71ac.png",
+            "date":"2019-9-08 12:25",
+            "id":"1"
+        },{
+            "title":"线性代数",
+            "cover_img_url":"http://jzvd-pic.nathen.cn/jzvd-pic/1bb2ebbe-140d-4e2e-abd2-9e7e564f71ac.png",
+            "date":"2019-9-08 12:25",
+            "id":"1"
+        },{
+            "title":"线性代数",
+            "cover_img_url":"http://jzvd-pic.nathen.cn/jzvd-pic/1bb2ebbe-140d-4e2e-abd2-9e7e564f71ac.png",
+            "date":"2019-9-08 12:25",
+            "id":"1"
+        },{
+            "title":"线性代数",
+            "cover_img_url":"http://jzvd-pic.nathen.cn/jzvd-pic/1bb2ebbe-140d-4e2e-abd2-9e7e564f71ac.png",
+            "date":"2019-9-08 12:25",
+            "id":"1"
+        },{
+            "title":"线性代数",
+            "cover_img_url":"http://jzvd-pic.nathen.cn/jzvd-pic/1bb2ebbe-140d-4e2e-abd2-9e7e564f71ac.png",
+            "date":"2019-9-08 12:25",
+            "id":"1"
+        },{
+            "title":"线性代数",
+            "cover_img_url":"http://jzvd-pic.nathen.cn/jzvd-pic/1bb2ebbe-140d-4e2e-abd2-9e7e564f71ac.png",
+            "date":"2019-9-08 12:25",
+            "id":"1"
+        },{
+            "title":"线性代数",
+            "cover_img_url":"http://jzvd-pic.nathen.cn/jzvd-pic/1bb2ebbe-140d-4e2e-abd2-9e7e564f71ac.png",
+            "date":"2019-9-08 12:25",
+            "id":"1"
+        },{
+            "title":"线性代数",
+            "cover_img_url":"http://jzvd-pic.nathen.cn/jzvd-pic/1bb2ebbe-140d-4e2e-abd2-9e7e564f71ac.png",
+            "date":"2019-9-08 12:25",
+            "id":"1"
+        },{
+            "title":"线性代数",
+            "cover_img_url":"http://jzvd-pic.nathen.cn/jzvd-pic/1bb2ebbe-140d-4e2e-abd2-9e7e564f71ac.png",
+            "date":"2019-9-08 12:25",
+            "id":"1"
+        }]
+    }
+}
