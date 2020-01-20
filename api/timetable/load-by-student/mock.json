@@ -1,0 +1,83 @@
+{
+    "code": 1000,
+    "message": "OK",
+    "data": {
+        "calendar":{
+            "date_string": "2020年1月10日",
+            "week_day": "星期五",
+            "week_index": "第20周"
+        },
+        "lessons":[
+            {
+                "index": "第一节",
+                "from":"08:00",
+                "to":"09:20",
+                "course":{
+                    "id":"1",
+                    "name": "思想道德修养"
+                },
+                "classroom": "A区教学楼 A座501",
+                "teacher": {
+                    "id": 1,
+                    "name": "张网易"
+                },
+                "materials":[
+                    {
+                        "type": "1",
+                        "name:": "课件",
+                        "content":[
+                            {
+                                "description": "地形与地貌对比图",
+                                "url": "http://www.baidu.com/file.pdf"
+                            },
+                            {
+                                "description": "课前问题记录表",
+                                "url": "http://www.baidu.com/file.pdf"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "2",
+                        "name:": "预习材料",
+                        "content":[
+                            {
+                                "description": "地形与地貌对比图",
+                                "url": "http://www.baidu.com/file.pdf"
+                            },
+                            {
+                                "description": "课前问题记录表",
+                                "url": "http://www.baidu.com/file.pdf"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "3",
+                        "name:": "课后作业",
+                        "content":[
+                            {
+                                "description": "地形与地貌对比图",
+                                "url": "http://www.baidu.com/file.pdf"
+                            },
+                            {
+                                "description": "课前问题记录表",
+                                "url": "http://www.baidu.com/file.pdf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": "第一节",
+                "from":"08:00",
+                "to":"09:20",
+                "course":{
+                    "id":"",
+                    "name": "暂无课程安排，自由活动时间"
+                },
+                "classroom": "",
+                "teacher": "",
+                "materials":""
+            }
+        ]
+    }
+}
